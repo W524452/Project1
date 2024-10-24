@@ -16,8 +16,16 @@ Students at WAES
 
 #### Main page
 
+Mobile:
+
 ![Mobile](notes/design-main-laptop.png)
+
+Tablet:
+
 ![Tablet](notes/design-main-tablet.png)
+
+Laptop:
+
 ![Laptop](notes/design-main-mobile.png)
 
 ### Colours
