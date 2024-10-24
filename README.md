@@ -16,9 +16,9 @@ Students at WAES
 
 #### Main page
 
-![Mobile]("notes/design-main-laptop.png")
-![Tablet]("notes/design-main-tablet.png")
-![Laptop]("notes/design-main-mobile.png")
+![Mobile](notes/design-main-laptop.png)
+![Tablet](notes/design-main-tablet.png)
+![Laptop](notes/design-main-mobile.png)
 
 ### Colours
 
@@ -34,11 +34,11 @@ test colour combinations to rule out combinations with poor contrast
 
 Foreground colours need to have high contrast to background colours to be accessible.
 
-![The palette]("notes/palette-checking-contrast.png")
+![The palette](notes/palette-checking-contrast.png)
 
 #### Final palette:
 
-![The palette]("notes/palette.png")
+![The palette](notes/palette.png)
 
 Main colours (light mode) : #3F4A3C on #F6EDD9
 Secondary colours (light mode) : #F6EDD9 on #7A9972
