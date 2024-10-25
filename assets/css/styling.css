@@ -178,8 +178,6 @@ main section{
  padding:5px;
  align-items:center;
 }
-#contactForm div{
-}
 #contactForm div *:focus{
  outline:2px solid var(--secondary-background);
 }
@@ -210,6 +208,110 @@ main section{
 #contactForm input[type="submit"]:active, #contactForm input[type="reset"]:active{
  color:var(--main-foreground);
  background-color:var(--main-background);
+}
+/* ------ location - amberley road ------ */
+#LocationDetails{
+ display:flex;
+ justify-content:space-around;
+ align-items:center;
+/* width:100%;
+ height:100%; */
+}
+#LocationDetails img {
+ display:none;
+}
+#LocationDetails .overlay p {
+ font-size:initial;
+}
+#LocationDetails section{
+ flex-basis:400px;
+ min-height:130px;
+ background-size:cover;
+ background-position:center center;
+}
+#walk-image{
+ content: url("../images/walk.jpg") / "Image of a man walking across the street";
+}
+#walk-summary{
+ background-image:url("../images/walk.jpg");
+}
+#supermarket-image{
+ content: url("../images/supermarket.jpg") / "Image of a supermarket";
+}
+#supermarket-summary{
+ background-image:url("../images/supermarket.jpg");
+}
+#canalside-image{
+ content: url("../images/canalside.jpg") / "Image of the canal-side";
+}
+#canalside-section{
+ background-image:url("../images/canalside.jpg");
+}
+#canteen-image{
+ content: url("../images/canteen.jpg") / "Image of the canteen";
+}
+#canteen-section{
+ background-image:url("../images/canteen.jpg");
+}
+#churchcafe-image{
+ content: url("../images/churchcafe.jpg") / "Image of the church";
+}
+#churchcafe-section{
+ background-image:url("../images/churchcafe.jpg");
+}
+#fishandchips-image{
+ content: url("../images/fishandchips.jpg") / "Image of the fish and chip shop";
+}
+#fishandchips-section{
+ background-image:url("../images/fishandchips.jpg");
+}
+#flyover-image{
+ content: url("../images/flyover.jpg") / "Image of the local sights";
+}
+#flyover-section{
+ background-image:url("../images/flyover.jpg");
+}
+#indian-restaurant-image{
+ content: url("../images/indian-restaurant.jpg") / "Image of the indian restaurant";
+}
+#indian-restaurant-section{
+ background-image:url("../images/indian-restaurant.jpg");
+}
+#kebabshop-image{
+ content: url("../images/kebabshop.jpg") / "Image of the kebab shop";
+}
+#kebabshop-section{
+ background-image:url("../images/kebabshop.jpg");
+}
+#localshop-image{
+ content: url("../images/localshop.jpg") / "Image of a local shop";
+}
+#localshop-section{
+ background-image:url("../images/localshop.jpg");
+}
+#localshopexterior-image{
+ content: url("../images/localshopexterior.jpg") / "Image of local shop exterior";
+}
+#localshopexterior-section{
+ background-image:url("../images/localshopexterior.jpg");
+}
+#sainsbury-image{
+ content: url("../images/sainsbury.jpg") / "Image of Sainsbury's";
+}
+#sainsbury-section{
+ background-image:url("../images/sainsbury.jpg");
+}
+#tesco-image{
+ content: url("../images/tesco.jpg") / "Image of tesco";
+}
+#tesco-section{
+ background-image:url("../images/tesco.jpg");
+}
+#waitrose-image{
+ content: url("../images/waitrose.jpg") / "Image of waitrose";
+}
+#waitrose-section{
+ background-image:url("../images/waitrose.jpg");
 }
 /* ------ location - details unknown ------ */
 #unknown{
@@ -243,6 +345,16 @@ main section{
   background-image:none;
  }
  #LocationList a img{
+  display:inline-block;
+  border-radius:33%;
+  object-fit:cover;
+  width:100%;
+  max-height:200px;
+ }
+ #LocationDetails section{
+  background-image:none;
+ }
+ #LocationDetails img{
   display:inline-block;
   border-radius:33%;
   object-fit:cover;
