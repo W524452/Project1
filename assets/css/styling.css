@@ -140,11 +140,11 @@ main section{
  background-position:center center;
  background-size:cover;
 }
-#about, #contactPage{
+#about, #contactPage, #unknown{
  flex-direction:column;
  flex-wrap:wrap;
 }
-#about section, #contactPage section{
+#about section, #contactPage section, #unknown section{
  flex-direction:column;
  margin:10px;
 }
@@ -211,6 +211,21 @@ main section{
  color:var(--main-foreground);
  background-color:var(--main-background);
 }
+/* ------ location - details unknown ------ */
+#unknown{
+ background-image:url("../images/unknown-light.jpg");
+ background-repeat:no-repeat;
+ background-position:center center;
+ background-size:cover;
+ align-items:center;
+ justify-content:center;
+}
+#unknown section{
+ background-color:rgb(from var(--main-background) r g b / 70%);
+ justify-content:center;
+ flex-grow:0;
+ padding:10px;
+}
 /* ------ responsive design ------- */
 @media print {
  :root{
@@ -247,6 +262,9 @@ main section{
  }
  #contactPage section{
   backdrop-filter: invert(100%);
+ }
+ #unknown{
+  background-image:url("../images/unknown-dark.jpg");
  }
 }
 @media screen and (width < 320px){
