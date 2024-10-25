@@ -26,10 +26,56 @@
   </header>
   <main id="contactPage">
    <section>
-    <h3>Is there a lunchtime option we haven't mentioned at a WAES site you know?</h3>
-    <form>
+    <div>
+     <h3>Is there a lunchtime option we haven't mentioned?</h3>
+     <h4>At a WAES site you know?</h4>
+    </div>
+    <form id="contactForm" method="POST" action="https://formdump.codeinstitute.net">
+     <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" />
+     </div>
+     <div>
+      <label for="email">E-mail Address</label>
+      <input type="email" id="email" name="email" placeholder="dot@dotat.at" />
+     </div>
+     <div>
+      <label for="location">Relevant Site</label>
+      <select id="location" name="location">
+       <option value="LG">Lisson Grove</option>
+       <option value="AR">Amberley Road</option>
+       <option value="P">Pimlico</option>
+       <option value="BroS" selected="selected">Broadwick Street</option>
+       <option value="KS">Kendal Street</option>
+       <option value="VS">Victoria Street</option>
+       <option value="BruS">Bruckner Street</option>
+      </select>
+     </div>
+     <div>
+      <label for="activityCategory">Activity Category</label>
+      <input type="text" id="activityCategory" name="activityCategory" list="ActivityCategories" placeholder="Restaurant/Cafe/Shop/Walk/On-Premise" required="required" />
+     </div>
+     <div>
+      <label for="activityDetails">Activity</label>
+      <textarea id="activityDetails" name="activityDetails" placeholder="Details of the option" rows="10" required="required"></textarea>
+     </div>
+     <div>
+      <label>&nbsp;</label>
+      <div>
+       <input type="submit" value="Tell us" />
+       <input type="reset" value="Clear details" />
+      </div>
+     </div>
     </form>
    </section>
+   <datalist id="ActivityCategories">
+    <option>Cafe</option>
+    <option>On-premise</option>
+    <option>Restaurant</option>
+    <option>Park</option>
+    <option>Shop</option>
+    <option>Excursion/Walk</option>
+   </datalist>
   </main>
   <footer>
    <p>not copyrighted</p>

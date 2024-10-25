@@ -133,17 +133,67 @@ main section{
 #BrucknerStreet-section{
  background-image:url("../images/BrucknerStreet.jpg");
 }
-/* ------ about ------- */
+/* ------ about / contact (commonalities) ------- */
 #about, #contactPage{
- padding:10px;
  flex-direction:column;
+ flex-wrap:wrap;
 }
-#about section{
+#about section, #contactPage section{
  flex-direction:column;
- border-bottom:solid 1px var(--main-foreground);
+ margin:10px;
+}
+/* ------ about ------- */
+#about section{
+ border-bottom-style:1px solid currentColor;
+ justify-content:center;
 }
 #about section:nth-last-of-type(1){
  border-bottom-style:none;
+}
+/* ------ contact ------- */
+#contactForm{
+ flex-grow:1;
+ width:100%;
+ max-width:600px;
+}
+#contactForm div{
+ display:flex;
+ flex-wrap:wrap;
+ padding:5px;
+ align-items:center;
+}
+#contactForm div{
+}
+#contactForm div *:focus{
+ outline:2px solid var(--secondary-background);
+}
+#contactForm div *:not(label):not(div), #contactPage datalist{
+ flex-grow:1;
+ background-color:transparent;
+ border:1px solid currentColor;
+ caret-color:currentColor;
+ color:currentColor;
+}
+#contactForm div select *{
+ background-color:var(--main-background);
+}
+#contactForm div option:active, #contactForm div option:hover{
+ background-color:red;
+}
+#contactForm label{
+ text-align:right;
+ flex-basis:8em;
+ padding-right:5px;
+}
+#contactForm input[type="submit"], #contactForm input[type="reset"]{
+ margin:auto 5px;
+ padding:5px;
+ color:var(--secondary-foreground);
+ background-color:var(--secondary-background);
+}
+#contactForm input[type="submit"]:active, #contactForm input[type="reset"]:active{
+ color:var(--main-foreground);
+ background-color:var(--main-background);
 }
 /* ------ responsive design ------- */
 @media print {
@@ -177,6 +227,11 @@ main section{
   --main-background:#3F4A3C;
   --secondary-foreground:#F6EDD9;
   --secondary-background:#4EB646;
+ }
+}
+@media screen and (width < 320px){
+ #contactForm label{
+  text-align:left;
  }
 }
 
