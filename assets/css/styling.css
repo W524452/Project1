@@ -439,6 +439,7 @@ main section{
   border-radius:10%;
   object-fit:cover;
   width:100%;
+  max-width:50%;
   max-height:200px;
  }
  #LocationList a:hover{
