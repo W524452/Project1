@@ -292,7 +292,7 @@ main section{
 }
 /* ------ location - amberley road - sit-down meal ------ */
 #sitdownmeal-image{
- content: url("../images/dining.jpg") / "Image of the canteen";
+ content: url("../images/dining.jpg") / "Image of a dining table";
 }
 #sitdownmeal-summary{
  background-image:url("../images/dining.jpg");
@@ -385,10 +385,10 @@ main section{
 #canalside-section{
  background-image:url("../images/canalside.jpg");
 }
-#flyover-image{
+#sights-image{
  content: url("../images/flyover.jpg") / "Image of the local sights";
 }
-#flyover-section{
+#sights-section{
  background-image:url("../images/flyover.jpg");
 }
 /* ------ location - details unknown ------ */
