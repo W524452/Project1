@@ -1,0 +1,101 @@
+/* ------ sit-down meal ------ */
+#sitdownmeal-image{
+ content: url("../images/dining.jpg") / "Image of a dining table";
+}
+#sitdownmeal-summary{
+ background-image:url("../images/dining.jpg");
+}
+#canteen-image{
+ content: url("../images/canteen.jpg") / "Image of the canteen";
+}
+#canteen-section{
+ background-image:url("../images/canteen.jpg");
+}
+#indian-restaurant-image{
+ content: url("../images/indian-restaurant.jpg") / "Image of the indian restaurant";
+}
+#indian-restaurant-section{
+ background-image:url("../images/indian-restaurant.jpg");
+}
+#churchcafe-image{
+ content: url("../images/churchcafe.jpg") / "Image of the church";
+}
+#churchcafe-section{
+ background-image:url("../images/churchcafe.jpg");
+}
+/* ------ take-away ------ */
+#takeaway-image{
+ content: url("../images/takeaway.jpg") / "Image of a cup and paper bag.";
+}
+#takeaway-summary{
+ background-image:url("../images/takeaway.jpg");
+}
+#fishandchips-image{
+ content: url("../images/fishandchips.jpg") / "Image of the fish and chip shop";
+}
+#fishandchips-section{
+ background-image:url("../images/fishandchips.jpg");
+}
+#kebabshop-image{
+ content: url("../images/kebabshop.jpg") / "Image of the kebab shop";
+}
+#kebabshop-section{
+ background-image:url("../images/kebabshop.jpg");
+}
+/* ------ supermarket ------ */
+#supermarket-image{
+ content: url("../images/supermarket.jpg") / "Image of a supermarket";
+}
+#supermarket-summary{
+ background-image:url("../images/supermarket.jpg");
+}
+#sainsbury-image{
+ content: url("../images/sainsbury.jpg") / "Image of Sainsbury's";
+}
+#sainsbury-section{
+ background-image:url("../images/sainsbury.jpg");
+}
+#tesco-image{
+ content: url("../images/tesco.jpg") / "Image of tesco";
+}
+#tesco-section{
+ background-image:url("../images/tesco.jpg");
+}
+#waitrose-image{
+ content: url("../images/waitrose.jpg") / "Image of waitrose";
+}
+#waitrose-section{
+ background-image:url("../images/waitrose.jpg");
+}
+/* ------ local shops ------ */
+#localshop-image{
+ content: url("../images/localshop.jpg") / "Image of a local shop";
+}
+#localshop-summary{
+ background-image:url("../images/localshop.jpg");
+}
+#grocers-image{
+ content: url("../images/localshopexterior.jpg") / "Image of local shop exterior";
+}
+#grocers-section{
+ background-image:url("../images/localshopexterior.jpg");
+}
+/* ------ walking ------ */
+#walk-image{
+ content: url("../images/walk.jpg") / "Image of a man walking across the street";
+}
+#walk-summary{
+ background-image:url("../images/walk.jpg");
+}
+#canalside-image{
+ content: url("../images/canalside.jpg") / "Image of the canal-side";
+}
+#canalside-section{
+ background-image:url("../images/canalside.jpg");
+}
+#sights-image{
+ content: url("../images/flyover.jpg") / "Image of the local sights";
+}
+#sights-section{
+ background-image:url("../images/flyover.jpg");
+}

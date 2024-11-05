@@ -1,0 +1,42 @@
+#BroadwickStreet-image{
+ content: url("../images/BroadwickStreet.jpg") / "Image of Broadwick Street campus";
+}
+#BroadwickStreet-section{
+ background-image:url("../images/BroadwickStreet.jpg");
+}
+#AmberleyRoad-image{
+ content: url("../images/AmberleyRoad.jpg") / "Image of Amberley Road campus";
+}
+#AmberleyRoad-section{
+ background-image:url("../images/AmberleyRoad.jpg");
+}
+#VictoriaStreet-image{
+ content: url("../images/VictoriaStreet.jpg") / "Image of Victoria Street campus";
+}
+#VictoriaStreet-section{
+ background-image:url("../images/VictoriaStreet.jpg");
+}
+#KendalStreet-image{
+ content: url("../images/KendalStreet.jpg") / "Image of Kendal Street campus";
+}
+#KendalStreet-section{
+ background-image:url("../images/KendalStreet.jpg");
+}
+#LissonGrove-image{
+ content: url("../images/LissonGrove.jpg") / "Image of Lisson Grove campus";
+}
+#LissonGrove-section{
+ background-image:url("../images/LissonGrove.jpg");
+}
+#Pimlico-image{
+ content: url("../images/Pimlico.jpg") / "Image of Pimlico campus";
+}
+#Pimlico-section{
+ background-image:url("../images/Pimlico.jpg");
+}
+#BrucknerStreet-image{
+ content: url("../images/BrucknerStreet.jpg") / "Image of Bruckner Street campus";
+}
+#BrucknerStreet-section{
+ background-image:url("../images/BrucknerStreet.jpg");
+}
