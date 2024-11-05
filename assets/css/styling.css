@@ -12,12 +12,22 @@ body{
  height:100vh;
  margin:0;
 }
+a{
+ text-decoration:none;
+ color:currentColor;
+}
+a:hover{
+ color:var(--secondary-foreground);
+}
 /* ------ header ------ */
 header{
  width:100%;
  color:var(--secondary-foreground);
  background-color:var(--secondary-background);
  text-align:center;
+}
+header a:hover{
+ color:var(--main-foreground);
 }
 h1,h2{
  margin:5px;
@@ -29,16 +39,15 @@ nav{
 nav li{
  display:inline;
 }
-nav a{
- text-decoration:none;
- color:currentColor;
-}
 /* ------ footer ------ */
 footer{
  width:100%;
  color:var(--secondary-foreground);
  background-color:var(--secondary-background);
  text-align:center;
+}
+footer a:hover{
+ color:var(--main-foreground);
 }
 /* ------ main ------ */
 main{
@@ -59,8 +68,6 @@ main section{
 }
 /* ------ main - location list ------ */
 #LocationList a{
- text-decoration:none;
- color:currentColor;
  display:flex;
  justify-content:space-around;
  align-items:center;
