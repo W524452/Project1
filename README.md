@@ -108,5 +108,10 @@ An about page for copyright, disclaimers, and other necessary information.
 
 ![About page](notes/about.png)
 
+## Testing
+
+### Accessibility audit
+
+![About page](notes/AccessibilityAudit.png)
 
 
