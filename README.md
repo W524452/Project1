@@ -163,5 +163,40 @@ images are loaded via CSS, not a src tag, but HTML validator still requires the 
 
 The CSS validator doesn't seem to support the relative-value syntax for rgb - rgb (from ....) 
 
-Relative value syntax
+### Validation after fixing bugs and working around validator issues
 
+#### HTML
+
+Home Page
+
+![Home Page validation](notes/ValidationWaesSiteList.png)
+
+Site Details Page
+
+![Site Details Page validation](notes/ValidationWaesSiteDetails.png)
+
+Placeholder Page
+
+![Placeholder Page validation](notes/ValidationUnknownSite.png)
+
+Contact Page
+
+![Contact Page validation](notes/ValidationContactPage.png)
+
+About Page
+
+![About Page validation](notes/validationAboutPage.png)
+
+#### CSS
+
+![CSS validation](notes/ValidationStylesheet.png)
+
+#Deployment
+
+The site is live at [https://w524452.github.io/Project1/index.html](https://w524452.github.io/Project1/index.html)
+
+#Attribution
+
+Images from Pexels.com
+
+(with certain adjustments by me)
