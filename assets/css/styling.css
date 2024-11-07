@@ -130,6 +130,9 @@ main section{
 }
 #contactPage section{
  background-color:rgb(from var(--main-background) r g b / 90%);
+ width:100%;
+ max-width:600px;
+ align-self:center;
 }
 #contactForm{
  flex-grow:1;
