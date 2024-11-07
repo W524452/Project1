@@ -123,39 +123,37 @@ Various UI tweaks by experimentation.
 #### HTML
 
 https://w524452.github.io/Project1/index.html
--(multiple) : Element img is missing required attribute src
+*(multiple) : Element img is missing required attribute src
 
 https://w524452.github.io/Project1/amberleyroad.html
--(multiple) : Element img is missing required attribute src
--(multiple) : Element div not allowed as child of element summary in this context. 
--(multiple) : Article lacks heading.
----between grocers and walk:
--(one instance) : Error: End tag details seen, but there were open elements.
--(one instance) : Error: Unclosed element article.
--(one instance) : Error: Stray end tag article.
--(one instance) : Section lacks heading
---sights
+*(multiple) : Element img is missing required attribute src
+*(multiple) : Element div not allowed as child of element summary in this context. 
+*(multiple) : Article lacks heading.
+*(one instance) : Error: End tag details seen, but there were open elements.
+*(one instance) : Error: Unclosed element article.
+*(one instance) : Error: Stray end tag article.
+*(one instance) : Section lacks heading
 
 https://w524452.github.io/Project1/lissongrove.html
--(one instance) : Section lacks heading
+*(one instance) : Section lacks heading
 
 https://w524452.github.io/Project1/contact.html
--no errors / warnings
+*no errors / warnings
 
 https://w524452.github.io/Project1/about.html
--(multiple instances) : Section lacks heading
+*(multiple instances) : Section lacks heading
 
 #### CSS
 
 styling.css
--(multiple) : background-color from is not a valid color 3 or 6 hexadecimals numbers
--(one instance) : border-bottom-style Too many values or values are not recognized : 1px solid currentColor
+*(multiple) : background-color from is not a valid color 3 or 6 hexadecimals numbers
+*(one instance) : border-bottom-style Too many values or values are not recognized : 1px solid currentColor
 
 locationListImagery.css
--no errors
+*no errors
 
 amberleyRoadImagery.css
--no errors
+*no errors
 
 ### Remarks
 
