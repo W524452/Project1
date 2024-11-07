@@ -115,7 +115,6 @@ main section{
 }
 /* ------ about ------- */
 #about section{
- border-bottom-style:1px solid currentColor;
  justify-content:center;
  background-color:rgb(from var(--main-background) r g b / 70%);
 }
