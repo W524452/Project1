@@ -19,6 +19,9 @@ a{
 a:hover{
  color:var(--secondary-foreground);
 }
+.validationOnly{
+ display:none;
+}
 /* ------ header ------ */
 header{
  width:100%;
