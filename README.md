@@ -110,8 +110,58 @@ An about page for copyright, disclaimers, and other necessary information.
 
 ## Testing
 
+### Initial testing
+
+Various UI tweaks by experimentation.
+
 ### Accessibility audit
 
 ![About page](notes/AccessibilityAudit.png)
 
+### Initial attempt at validation
+
+#### HTML
+
+https://w524452.github.io/Project1/index.html
+-(multiple) : Element img is missing required attribute src
+
+https://w524452.github.io/Project1/amberleyroad.html
+-(multiple) : Element img is missing required attribute src
+-(multiple) : Element div not allowed as child of element summary in this context. 
+-(multiple) : Article lacks heading.
+---between grocers and walk:
+-(one instance) : Error: End tag details seen, but there were open elements.
+-(one instance) : Error: Unclosed element article.
+-(one instance) : Error: Stray end tag article.
+-(one instance) : Section lacks heading
+--sights
+
+https://w524452.github.io/Project1/lissongrove.html
+-(one instance) : Section lacks heading
+
+https://w524452.github.io/Project1/contact.html
+-no errors / warnings
+
+https://w524452.github.io/Project1/about.html
+-(multiple instances) : Section lacks heading
+
+#### CSS
+
+styling.css
+-(multiple) : background-color from is not a valid color 3 or 6 hexadecimals numbers
+-(one instance) : border-bottom-style Too many values or values are not recognized : 1px solid currentColor
+
+locationListImagery.css
+-no errors
+
+amberleyRoadImagery.css
+-no errors
+
+### Remarks
+
+images are loaded via CSS, not a src tag, but HTML validator still requires the src tag to be provided
+
+The CSS validator doesn't seem to support the relative-value syntax for rgb - rgb (from ....) 
+
+Relative value syntax
 
